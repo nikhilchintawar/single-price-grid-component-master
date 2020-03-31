@@ -1,0 +1,107 @@
+header{
+    margin: 1rem;
+}
+
+h1{
+    font-size: 1.7rem;
+    color: hsl(179, 62%, 43%);
+    font-weight: 800;
+}
+
+.promo{
+    font-size: 1rem;
+    color: hsl(71, 73%, 54%);
+}
+
+.description {
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.monthly-subscription{
+    background-color: hsl(179, 62%, 43%);
+    padding: 1.5rem;
+    margin: -10px;
+    color: #ffffff;
+    margin-bottom: 0.04rem;
+    margin-top: 1rem;
+    
+}
+
+#dollar{
+    font-size: 2rem;
+}
+
+#perMonth{
+    color: hsl(204, 43%, 93%);
+}
+
+button{
+    width: 100%;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+.why{
+    background-color: hsl(179, 54%, 54%);
+    padding: 0.5rem;
+    margin: 0rem -0.5rem;
+
+}
+
+.whyUs{
+    width: 60vw;
+    margin-left: 1rem;
+    color: #ffffff;
+    
+}
+
+.whyUs p{
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+
+
+ @media screen and (min-width: 720px){
+     header{
+         margin: 2rem;
+     }
+    
+     .layout{
+         display: grid;
+         grid-template-columns: repeat(2, 50%);
+         grid-auto-rows: minmax(400px, auto);
+     }
+     
+    .why{
+        padding: 1rem;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        
+    }
+    .whyUs{
+        width: 50%;
+    }
+    .sub{
+       margin: 1rem;     
+       display: block;
+       margin-top: 6.3rem;
+    }
+    button{
+        width: 45%;
+        text-align: center;
+    }
+    
+ }
